@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dzialkas",
+  "info": {
+    "singularName": "dzialka",
+    "pluralName": "dzialkas",
+    "displayName": "Dzialka"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "numerDzialki": {
+      "type": "string",
+      "required": true
+    },
+    "dostepna": {
+      "type": "boolean",
+      "default": true,
+      "required": false
+    },
+    "metryKwadratowe": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
