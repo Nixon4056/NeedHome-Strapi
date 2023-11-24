@@ -368,6 +368,7 @@ export interface ApiDzialkaDzialka extends Schema.CollectionType {
     singularName: 'dzialka';
     pluralName: 'dzialkas';
     displayName: 'Dzialka';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -376,6 +377,7 @@ export interface ApiDzialkaDzialka extends Schema.CollectionType {
     numerDzialki: Attribute.String & Attribute.Required;
     dostepna: Attribute.Boolean & Attribute.DefaultTo<true>;
     metryKwadratowe: Attribute.Integer & Attribute.Required;
+    cena: Attribute.String & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

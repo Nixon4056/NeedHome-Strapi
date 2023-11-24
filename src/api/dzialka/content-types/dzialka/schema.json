@@ -4,7 +4,8 @@
   "info": {
     "singularName": "dzialka",
     "pluralName": "dzialkas",
-    "displayName": "Dzialka"
+    "displayName": "Dzialka",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,6 +23,10 @@
     },
     "metryKwadratowe": {
       "type": "integer",
+      "required": true
+    },
+    "cena": {
+      "type": "string",
       "required": true
     }
   }
